@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример для практики</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на нашу страницу</h1>
+        <h1>Кейс-задача № 3</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Студент</h2>
+            <p>Поляков Андрей Алексеевич, институт Синергия</p>
+            <img src="logo.png" alt="лого" width="200px">
+        </section>
+        <section>
+            <h2 align="center">Форма обратной связи</h2>
+            <form id="contact-form">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Андрей Поляков</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
